@@ -2,7 +2,8 @@
 const randomWords = ["idiot", "fool", "moron", "coward", "git"];
 
 // Function to get a random word
-function getRandomWord() {
+function getRandomWord() 
+{
   return randomWords[Math.floor(Math.random() * randomWords.length)];
 }
 
