@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Random Word Inserter",
+  "version": "1.0",
+  "description": "Randomly inserts words into web pages.",
+  "permissions": ["scripting"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
+
