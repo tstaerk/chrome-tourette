@@ -9,7 +9,7 @@ function getRandomWord() {
 // Function to insert a random word
 function insertRandomWords() 
 {
-  const elements = document.querySelectorAll("p, h1, h2, h3");
+  const elements = document.querySelectorAll("p, h1, h2, h3, span, a");
 
   elements.forEach((element) => 
   {
